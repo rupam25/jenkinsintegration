@@ -13,12 +13,12 @@ public void testcase1()throws InterruptedException  {
 	ChromeDriver driver= new ChromeDriver();
 	driver.get("http://www.faceook.com");
 	driver.manage().window().maximize();
-	Thread.sleep(5000);
+	Thread.sleep(1000);
 	driver.findElement(By.id("email")).sendKeys("rupam_life@yahoo.co.in");
 	Thread.sleep(2000);
 	driver.findElement(By.id("pass")).sendKeys("asl@1234");
 	
-	driver.quit();
+	//driver.quit();
 	//Thread.sleep(5000);
 	//driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	//Thread.sleep(2000);
